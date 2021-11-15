@@ -17,3 +17,12 @@
 film tablosunda bulunan tüm sütunlardaki verileri rental_rate 0.99, 2.99, 4.99 VE replacement_cost 12.99, 15.99, 28.99 olma koşullarıyla sıralayınız. ( IN operatörünü kullanınız.)
 1 select * from filim 
 2 where rental_rate IN (0.99, 2.99, 4.99) AND  replacement_cost IN (12.99, 15.99, 28.99)
+
+
+
+1.  selecet * from filim where between 12,99 and 16,99
+2.  soru
+3.  selecet first_nameve , last_name from  actor first_name IN('Nick','Penelope','Ed')
+3soru
+5. 1 select * from filim 
+6. 2 where rental_rate IN (0.99, 2.99, 4.99) AND  replacement_cost IN (12.99, 15.99, 28.99)
